@@ -3,12 +3,12 @@ class Genre
   @@all = []
 
   def initialize(name)
-    @name = name 
+    @name = name
     self.class.all << self
   end
 
-  def self.all 
-    @@all 
+  def self.all
+    @@all
   end
 
 end
